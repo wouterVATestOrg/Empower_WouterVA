@@ -39,5 +39,5 @@ jobs:
           # The version number for the artifact. Only required for a release run. (format A.B.C). E.g. 1.0.1. Required for stages Upload and All if no build number was provided instead.
           version: 1.0.1 # optional
           # The build number of a workflow run. Only required for a development run. Required for stages Upload and All if no version was provided instead.
-          build-number:  ${{ github.run_number } # optional
+          build-number:  ${{ github.run_number }} # optional
 
